@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Skip Ad Auto Click",
+  "version": "1.0",
+  "permissions": ["debugger"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
