@@ -1,8 +1,6 @@
 # YouTube Auto Skip Ad
 A tiny extension that automatically clicks YouTube's "Skip Ad" button using the Chrome Debugger API. It does not block ads — it only clicks the Skip button when one appears.
 
-<img width="1156" height="110" alt="Banner Screenshot" src="https://github.com/user-attachments/assets/8707a07f-393f-4747-8ea8-ac62f82684a8" />
-
 ## Install
 1. Download the extension files
 2. Open Chrome and go to chrome://extensions/
@@ -16,7 +14,8 @@ Note: Once the extension is added it will automatically work on new YouTube page
 
 ## Usage
 - Play a YouTube video. When a skippable ad shows a "Skip Ad" button, the extension will detect it and automatically click the Skip Ad button.
-- When the extension clicks Skip, a small banner will appear for 1–2 seconds and then disappear. The image above is a screenshot of that banner.
+- When the extension clicks Skip, a small banner will appear for 1–2 seconds and then disappear. The image below is a screenshot of that banner:
+<img width="1156" height="110" alt="Banner Screenshot" src="https://github.com/user-attachments/assets/8707a07f-393f-4747-8ea8-ac62f82684a8" />
 
 ## Notes
 - The extension does not block or remove ads; it only clicks the Skip button when present.
